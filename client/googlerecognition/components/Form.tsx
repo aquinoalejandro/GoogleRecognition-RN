@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { View, Button, Image } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
+import { StyleSheet } from 'react-native';
+import { Axios } from 'axios';
 
 
 export function Form() {
@@ -36,21 +38,31 @@ export function Form() {
         }
     };
 
+
     function cleanImage() {
         setImageSelected(null);
     }
 
     return (
-        <View>
-            <Button title="Take Picture" onPress={takePicture} />
+        <View >
+            <View style={styles.botones}>
+                <Button title="Take Picture" onPress={takePicture} />
+                <Button title="Clean Image" onPress={cleanImage} />
+            </View>
             {imageSelected && (
                 <View style={{ alignItems: 'center' }}>
                 <Image source={{ uri: imageSelected }} style={{ width: 200, height: 200 }} />
                 </View>
             )}
-
-            <Button title="Clean Image" onPress={cleanImage} />
-
+            {/* <Button title="Upload Image" onPress={() => {}} />  */}
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    botones:{
+        display: 'flex',
+        flexDirection: 'row',
+        gap: 15
+    },
+});
