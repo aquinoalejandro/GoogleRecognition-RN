@@ -1,0 +1,26 @@
+@import 'mixin'; 
+
+.bar {
+  @include flex(row, space-between, center);
+  padding: 0.5rem;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .bar-content {
+    @include flex(row, space-between, center);
+    width: 100%;
+  }
+
+  img {
+    @include square(2rem);
+    border-radius: 50%;
+  }
+
+  .icon-back {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+    cursor: pointer;
+    fill: #000;
+  }
+}

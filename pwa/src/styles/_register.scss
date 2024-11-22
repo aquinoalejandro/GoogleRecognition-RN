@@ -1,0 +1,139 @@
+.register-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding-left: 8rem;
+
+  .planta-container {
+    display: flex;
+    justify-content: flex-end;
+
+    .planta {
+      width: 82%;
+    }
+  }
+
+  .box-content {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 2rem;
+      color: #39753b;
+      margin-bottom: 1rem;
+    }
+
+    .form-row {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      gap: 1rem;
+
+      .MuiTextField-root {
+        width: 100%;
+      }
+    }
+
+    .MuiTextField-root {
+      margin-bottom: 1.5rem;
+      width: 100%;
+
+      .MuiInputLabel-root {
+        color: #39753b;
+      }
+
+      .MuiOutlinedInput-root {
+        fieldset {
+          border-color: #4caf50;
+        }
+
+        &:hover fieldset {
+          border-color: #39753b;
+        }
+
+        &.Mui-focused fieldset {
+          border-color: #39753b;
+        }
+      }
+    }
+
+    .main-button {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 20px;
+      transition: background-color 0.3s ease;
+      width: 100%;
+
+      &:hover {
+        background-color: #39753b;
+      }
+    }
+
+    a {
+      font-size: 0.9rem;
+      color: #39753b;
+      text-decoration: none;
+      margin-top: 1rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    padding-left: 4rem;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .planta-container {
+      margin-top: 2rem;
+      .planta {
+        width: 70%;
+      }
+    }
+
+    .box-content {
+      max-width: 90%;
+    }
+  }
+
+  @media (max-width: 300px) {
+    padding-left: 1rem;
+
+    .planta-container {
+      margin-top: 2rem;
+      .planta {
+        width: 100%;
+      }
+    }
+
+    .box-content {
+      max-width: 100%;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    .form-row {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+}

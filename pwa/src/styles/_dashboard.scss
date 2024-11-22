@@ -1,0 +1,158 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+
+  .widget-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    overflow-x: auto;
+
+    .widget {
+      flex: 1;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.132);
+      padding: 2rem;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+
+      .widget-info {
+        p {
+          opacity: 0.7;
+          font-size: 0.8rem;
+        }
+        h4 {
+          font-size: 1.5rem;
+        }
+        span {
+          display: flex;
+          align-items: center;
+          margin: 0.2rem;
+        }
+      }
+
+      .widget-circle {
+        position: relative;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        background-color: aquamarine;
+        &::before {
+          content: "";
+          position: absolute;
+          width: 4rem;
+          height: 4rem;
+          background-color: white;
+          border-radius: 100%;
+        }
+        span {
+          position: relative;
+        }
+      }
+    }
+  }
+
+  .graph-container {
+    display: flex;
+    gap: 2rem;
+    padding: 0 2rem;
+    overflow-x: auto;
+
+    .revenue-chart {
+      flex: 1;
+      background-color: white;
+      border-radius: 10px;
+      padding: 1rem;
+      h2 {
+        text-align: center;
+        margin: 1rem 0 2rem 0;
+      }
+    }
+
+    .dashboard-categories {
+      max-width: 16rem;
+      background-color: white;
+      border-radius: 10px;
+      padding: 1rem;
+      h2 {
+        text-align: center;
+        margin: 1.5rem 0 2rem 0;
+      }
+
+      .category-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        h5 {
+          letter-spacing: 1px;
+          font-weight: 300;
+        }
+        div {
+          flex: 1;
+          background-color: rgb(217, 217, 217);
+          border-radius: 20px;
+          height: 0.5rem;
+          margin-left: 1rem;
+          div {
+            border-radius: 20px;
+            height: 100%;
+          }
+        }
+        span {
+          font-size: 0.8rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .transaction-container {
+    display: flex;
+    gap: 2rem;
+    padding: 0 2rem;
+    height: 30rem;
+
+    .gender-chart {
+      flex: 1;
+      max-width: 20rem;
+      background-color: white;
+      border-radius: 10px;
+      padding: 1rem;
+      position: relative;
+      h2 {
+        text-align: center;
+        margin: 1.5rem 0 2rem 0;
+      }
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        color: rgba(0, 0, 0, 0.634);
+      }
+    }
+
+    .transaction-box {
+      flex: 1;
+      background-color: white;
+      border-radius: 10px;
+      padding: 1rem;
+      overflow-x: auto;
+      h2 {
+        margin: 1.5rem 0 0 0;
+      }
+    }
+  }
+}

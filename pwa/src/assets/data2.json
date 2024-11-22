@@ -1,0 +1,23 @@
+{
+  "materialsData": [
+    {
+      "id": 1,
+      "name": "Fertilizante NPK",
+      "category": "Fertilizantes",
+      "quantity": 50,
+      "unit": "kg",
+      "sold": 0,
+      "location": "Almacén A"
+    },
+    {
+      "id": 2,
+      "name": "Semillas de Trigo",
+      "category": "Semillas",
+      "quantity": 30,
+      "unit": "kg",
+      "sold": 0,
+      "location": "Almacén B"
+    }
+  ],
+  "salesHistoryData": []
+}

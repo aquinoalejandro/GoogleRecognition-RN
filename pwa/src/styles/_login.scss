@@ -1,0 +1,128 @@
+.login-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-color: #5ebf61;
+  padding-right: 8rem;
+
+  .img-container {
+    display: flex;
+  justify-content: center;
+    .login {
+      width: 75%;
+    }
+  }
+
+  .box-content {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px;
+
+    h1 {
+      font-size: 2rem;
+      color: #39753b;
+      margin-bottom: 1rem;
+    }
+
+    .MuiTextField-root {
+      margin-bottom: 0.5rem;
+      width: 100%;
+
+      .MuiInputLabel-root {
+        color: #39753b;
+      }
+
+      .MuiOutlinedInput-root {
+        fieldset {
+          border-color: #4caf50;
+        }
+
+        &:hover fieldset {
+          border-color: #39753b;
+        }
+
+        &.Mui-focused fieldset {
+          border-color: #39753b;
+        }
+      }
+    }
+
+    .main-button {
+      padding: 10px 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      background-color: #39753b;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 20px;
+      transition: background-color 0.3s ease;
+      width: 100%;
+
+      &:hover {
+        background-color: #4caf50;
+      }
+    }
+
+    .link-to {
+      font-size: 0.9rem;
+      color: #39753b;
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    padding-right: 4rem;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .img-container {
+      .login {
+        width: 70%;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .box-content {
+      max-width: 90%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    
+    .login-container{
+      width: 100%;
+    }
+
+    .img-container {
+      .login {
+        width: 50vh;
+      }
+    }
+
+    .box-content {
+      max-width: 100vh;
+      height: 100vh;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+}

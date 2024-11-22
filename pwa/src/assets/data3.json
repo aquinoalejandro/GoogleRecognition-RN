@@ -1,0 +1,125 @@
+{
+    "cultivos": [
+      {
+        "id": 1,
+        "nombre": "Tomate",
+        "categoría": "Verdura",
+        "tiempoDeCrecimiento": "60-80 días",
+        "temporadaÓptima": "Verano",
+        "necesidadesDeAgua": "Moderada",
+        "necesidadesDeLuzSolar": "Pleno sol",
+        "tipoDeSuelo": "Suelo bien drenado y arcilloso",
+        "rendimientoPorHectárea": "25,000 lbs",
+        "descripción": "Los tomates son una verdura popular conocida por su versatilidad en la cocina y su rico sabor."
+      },
+      {
+        "id": 2,
+        "nombre": "Trigo",
+        "categoría": "Grano",
+        "tiempoDeCrecimiento": "120-150 días",
+        "temporadaÓptima": "Primavera/Otoño",
+        "necesidadesDeAgua": "Bajas a moderadas",
+        "necesidadesDeLuzSolar": "Pleno sol",
+        "tipoDeSuelo": "Suelo bien drenado y fértil",
+        "rendimientoPorHectárea": "60-90 bushels",
+        "descripción": "El trigo es un cultivo de grano básico utilizado en pan, pasta y muchos otros productos alimenticios."
+      },
+      {
+        "id": 3,
+        "nombre": "Maíz",
+        "categoría": "Grano",
+        "tiempoDeCrecimiento": "90-120 días",
+        "temporadaÓptima": "Verano",
+        "necesidadesDeAgua": "Altas",
+        "necesidadesDeLuzSolar": "Pleno sol",
+        "tipoDeSuelo": "Suelo bien drenado y arcilloso",
+        "rendimientoPorHectárea": "150-200 bushels",
+        "descripción": "El maíz es un cultivo ampliamente cultivado utilizado para alimentos, piensos para animales y productos industriales."
+      },
+      {
+        "id": 4,
+        "nombre": "Lechuga",
+        "categoría": "Verdura de Hoja",
+        "tiempoDeCrecimiento": "45-55 días",
+        "temporadaÓptima": "Primavera/Otoño",
+        "necesidadesDeAgua": "Moderada",
+        "necesidadesDeLuzSolar": "Sol parcial a pleno sol",
+        "tipoDeSuelo": "Suelo suelto y bien drenado",
+        "rendimientoPorHectárea": "20,000 lbs",
+        "descripción": "La lechuga es una verdura de hoja verde de rápido crecimiento que se usa a menudo en ensaladas y sándwiches."
+      },
+      {
+        "id": 5,
+        "nombre": "Papa",
+        "categoría": "Verdura de Raíz",
+        "tiempoDeCrecimiento": "90-120 días",
+        "temporadaÓptima": "Primavera/Verano",
+        "necesidadesDeAgua": "Moderada",
+        "necesidadesDeLuzSolar": "Pleno sol",
+        "tipoDeSuelo": "Suelo arcilloso y bien drenado",
+        "rendimientoPorHectárea": "30,000 lbs",
+        "descripción": "Las papas son una verdura de raíz versátil que se usa comúnmente en una variedad de platos."
+      },
+      {
+        "id": 6,
+        "nombre": "Fresa",
+        "categoría": "Fruta",
+        "tiempoDeCrecimiento": "30-45 días",
+        "temporadaÓptima": "Primavera/Verano",
+        "necesidadesDeAgua": "Altas",
+        "necesidadesDeLuzSolar": "Pleno sol",
+        "tipoDeSuelo": "Suelo arenoso y bien drenado",
+        "rendimientoPorHectárea": "10,000-15,000 lbs",
+        "descripción": "Las fresas son una fruta popular conocida por su dulzura y se usan comúnmente en postres."
+      },
+      {
+        "id": 7,
+        "nombre": "Zanahoria",
+        "categoría": "Verdura de Raíz",
+        "tiempoDeCrecimiento": "70-80 días",
+        "temporadaÓptima": "Primavera/Otoño",
+        "necesidadesDeAgua": "Moderada",
+        "necesidadesDeLuzSolar": "Pleno sol",
+        "tipoDeSuelo": "Suelo suelto y arenoso",
+        "rendimientoPorHectárea": "25,000 lbs",
+        "descripción": "Las zanahorias son una verdura de raíz conocida por su sabor dulce y alto valor nutricional."
+      },
+      {
+        "id": 8,
+        "nombre": "Soja",
+        "categoría": "Legumbre",
+        "tiempoDeCrecimiento": "80-120 días",
+        "temporadaÓptima": "Verano",
+        "necesidadesDeAgua": "Moderada",
+        "necesidadesDeLuzSolar": "Pleno sol",
+        "tipoDeSuelo": "Suelo bien drenado y fértil",
+        "rendimientoPorHectárea": "40-60 bushels",
+        "descripción": "La soja es un importante cultivo de legumbres utilizado para alimentos, aceite y piensos para animales."
+      },
+      {
+        "id": 9,
+        "nombre": "Manzana",
+        "categoría": "Fruta",
+        "tiempoDeCrecimiento": "150-180 días",
+        "temporadaÓptima": "Otoño",
+        "necesidadesDeAgua": "Moderada",
+        "necesidadesDeLuzSolar": "Pleno sol",
+        "tipoDeSuelo": "Suelo bien drenado y fértil",
+        "rendimientoPorHectárea": "800-1,000 bushels",
+        "descripción": "Las manzanas son una fruta popular con muchas variedades, conocidas por sus sabores dulces a ácidos."
+      },
+      {
+        "id": 10,
+        "nombre": "Arroz",
+        "categoría": "Grano",
+        "tiempoDeCrecimiento": "90-120 días",
+        "temporadaÓptima": "Verano",
+        "necesidadesDeAgua": "Altas",
+        "necesidadesDeLuzSolar": "Pleno sol",
+        "tipoDeSuelo": "Suelo arcilloso",
+        "rendimientoPorHectárea": "7,000-8,000 lbs",
+        "descripción": "El arroz es un cultivo alimentario básico cultivado en condiciones húmedas y utilizado en diversas cocinas del mundo."
+      }
+    ]
+  }
+  
